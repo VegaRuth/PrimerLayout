@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Inserta tu código aqui -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="untitled.css">
+	<title>Coders</title>
+		
+	</head>
+	<body>
+		<!-- Conetnido -->
+		<h1>Nuestras Coders</h1>
+		<hr>
+		<br></br>
+		<div class="content">
+			<div class="img" title="Ruth Vega"><span class="opacar"><img src="img/pic1.jpg"></span>
+				<div class="img" title="Yessica Morales"><span class="opacar"><img src="img/pic2.jpg"></span></span></div>
+				<div class="img" title="Mabel Banda"><span class="opacar"><img src="img/pic3.jpg"></span></span></div>
+			</div>
+			<!-- Segunda linea -->
+			<div class="twoline" title="Janet Rodriguez"><span class="opacar"><img src="img/pic4.jpg"></span>
+				<div class="twoline" title="Araceli Garcia"><span class="opacar"><img src="img/pic5.jpg"></span></div>
+				<div class="twoline" title="Samanta Rojas"><span class="opacar"><img src="img/pic6.jpg"></span></div>	
+			</div>
+	</body>
+</html>
