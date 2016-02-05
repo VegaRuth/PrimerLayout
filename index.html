@@ -3,46 +3,58 @@
 	<head>
 		<!-- Ingresa tu código aqui -->
 		<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="layout.css">
-	<title>Mi Primer Layout</title>
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<title>Mi Primer Layout</title>
 	</head>
 	<body>
 		<!--CONTAINER-->
 		<div class="container">
 			<!-- HEADER-->
-			<img class="logo" src="img/logo.png">
+			<div class="header">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+			</div>
 			<!--MENU-->
-			<hr class="hrmain">
-			<nav>
+			<div class="mainsection">
+				<hr class="hrmain">
 				<ul class="ulmain">
-				<li> Inicio | </li>
-				<li> Sobre Nosotros|</li>
-				<li> Nuestras Coders |</li>
-				<li> Contacto </li>
+					<li class="limain"> Inicio   </li>|
+					<li class="limain"> Sobre Nosotros </li> |
+					<li class="limain"> Nuestras Coders </li> |
+					<li class="limain"> Contacto  </li>
 				</ul>
-			</nav>
-			<hr class="hrmain">
+				<hr class="hrmain">
+			</div>	
 			<!--CONTENIDO-->
-			<img alt="FotoGrupal"src="img/grupal.jpg">
-			<hr class="hrcontent">
-
-			<p class="pcontent">Laboratoria existe para encontrar jóvenes mujeres con potencial pero sin acceso a educación superior de calidad, y transformarlas en talentosas desarrolladoras web, que sirven clientes locales e internacionales con soluciones digitales de excelente calidad. </p>
-				
-			<hr class="hrcontent">
+			<div class="content">			
+				<img class="grupal" alt="FotoGrupal"src="img/grupal.jpg">
+				<hr class="hrcontent">
+				<p class="pcontent">Laboratoria existe para encontrar jóvenes mujeres con potencial pero sin acceso a educación superior de calidad, y transformarlas en talentosas desarrolladoras web, que sirven clientes locales e internacionales con soluciones digitales de excelente calidad. </p>
+				<hr class="hrcontent">
+			</div>
+			<!-- Conetnido -->
 			<!--Nuestras Coders-->
-			<h1>Nuestras Coders</h1>
-		<hr class="hrApartado">
-		<br></br>
-		<div>
-			<div class="img" title="Ruth Vega"><span class="opacar"><img src="img/pic1.jpg"><a href="coder-detail.html"></span></a>
-				<div class="img" title="Yessica Morales"><span class="opacar"><img src="img/pic2.jpg"></span></span></div>
-				<div class="img" title="Mabel Banda"><span class="opacar"><img src="img/pic3.jpg"></span></span></div>
+			<div class="contentsection">
+				<h1>Nuestras Coders</h1>
+				<hr class="hrsection">
+				<br></br>
+					<div class="img"><p class="name" id="text1">Ruth Vega</p><span class="opacar"><a href="coder-detail.html"><img class="imgcoders" src="img/pic1.jpg"></span></a>
+					<div class="img"><p class="name" id="text2">Yessica Morales</p><span class="opacar"><img class="imgcoders" src="img/pic2.jpg"></span></span></div>
+					<div class="img"><p class="name" id="text3">Mabel Banda</p><span class="opacar"><img  class="imgcoders" src="img/pic3.jpg"></span></span></div>
+					</div>
+				<!-- Segunda linea -->
+					<div class="twoline"><p class="name" id="text4">Jannet Rodriguez</p><span class="opacar"><img class="imgcoders" src="img/pic4.jpg"></span>
+					<div class="twoline"><p class="name" id="text5">Araceli Garcia</p><span class="opacar"><img class="imgcoders" src="img/pic5.jpg"></span></div>
+					<div class="twoline"><p class="name" id="text6">Samanta Rojas</p><span class="opacar"><img class="imgcoders" src="img/pic6.jpg"></span></div>
+					
+					
+					
+					
+					
+					
+					</div>
 			</div>
-			<!-- Segunda linea -->
-			<div class="twoline" title="Janet Rodriguez"><span class="opacar"><img src="img/pic4.jpg"></span>
-				<div class="twoline" title="Araceli Garcia"><span class="opacar"><img src="img/pic5.jpg"></span></div>
-				<div class="twoline" title="Samanta Rojas"><span class="opacar"><img src="img/pic6.jpg"></span></div>	
-			</div>
-		
+		</div>
 	</body>
 </html>
